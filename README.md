@@ -1,17 +1,43 @@
-<<<<<<< HEAD
-# React-Mini-ecommerce-Store
-Mini ecommerce store in React by fetching data through API
-=======
-# React + Vite
+# My Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite, featuring:
+- React 19 with Vite tooling
+- Tailwind CSS for styling
+- Motion animations
+- React Icons
+- Axios for HTTP requests
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> cff5721 (Initial commit - React Mini Ecommerce Store)
+### Available Scripts
+- `npm run dev`: Start development server
+- `npm run build`: Create production build
+- `npm run preview`: Preview production build
+- `npm run lint`: Run ESLint
+
+## Project Structure
+- `src/`: Main application code
+  - `components/`: Reusable React components
+  - `App.jsx`: Main application component
+- `public/`: Static assets
+- `vite.config.js`: Vite configuration
+- `tailwind.config.js`: Tailwind CSS configuration
+
+## Technologies Used
+- React 19
+- Vite
+- Tailwind CSS
+- Motion
+- React Icons
+- Axios
