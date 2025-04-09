@@ -1,4 +1,4 @@
-# My Vite App
+# Card App in React
 
 A modern React application built with Vite, featuring:
 - React 19 with Vite tooling
